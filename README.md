@@ -120,6 +120,4 @@ python code/train_ppo_return_reward.py
 * **박재연 (Jae Yeon Park)**
 * Portfolio Selection via Deep Reinforcement Learning (2024), Department of Mathematical Sciences, UNIST
 
-## 📜 라이선스 (License)
 
-본 프로젝트는 [MIT License](LICENSE) (또는 원하시는 라이선스) 하에 배포됩니다.
