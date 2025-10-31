@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+*.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Data / Models / Results
+# (용량이 큰 파일은 Git으로 관리하지 않는 것이 좋습니다)
+/models/
+*.zip
+*.csv
+/results/
+
+# Colab / Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

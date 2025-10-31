@@ -1,0 +1,8 @@
+yfinance
+torch
+pandas
+numpy
+matplotlib
+shimmy>=0.2.1
+stable-baselines3
+gym
