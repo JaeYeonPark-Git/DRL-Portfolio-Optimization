@@ -15,6 +15,12 @@
 
 포트폴리오 관리는 위험을 최소화하면서 투자 목표를 달성하기 위해 자산을 전략적으로 배분하는 것을 포함합니다. 본 연구는 포트폴리오 배분 최적화를 위해 전통적인 평균-분산 최적화(MVO), 블랙-리터만 모델, 그리고 심층 강화학습(DRL)을 비교하여 포트폴리오 관리를 탐구합니다. MVO는 공분산 행렬을 추정하기 위해 Ledoit-Wolf 축소 방법을 사용하고 최적화를 위해 효율적 프론티어 기법을 적용합니다. 블랙-리터만 모델은 CAPM에서 파생된 시장 균형 수익률에 투자자의 견해를 통합하여 MVO를 확장하며, 더 균형 잡힌 접근 방식을 제공합니다. 반면, DRL 방법으로는 PPO(Proximal Policy Optimization)가 포트폴리오 가중치를 동적으로 조정하는 데 사용됩니다. 과거 시장 데이터를 사용한 백테스팅 기반의 실증 분석 결과, DRL 접근 방식이 누적 수익률, 연간 수익률, 변동성, 샤프 비율 등 다양한 성과 지표에서 MVO와 블랙-리터만 모델을 모두 크게 능가하는 것으로 나타났습니다. 이러한 결과는 DRL, 특히 PPO 전략이 현대 금융 시장에서 우수한 수익률을 달성하고 위험을 효과적으로 관리할 수 있는 동적이고 적응적인 포트폴리오 관리를 위한 강력한 도구로서의 잠재력을 강조합니다.
 
+## 📚 메인 참고 문헌 (Main Reference)
+
+본 프로젝트는 J.P. Morgan AI Research에서 발표한 다음 논문을 기반으로 합니다.
+
+* Sood, S., Papasotiriou, K., Vaiciulis, M., & Balch, T. (2023). **[Deep reinforcement learning for optimal portfolio allocation: A comparative study with mean-variance optimization](https://icaps23.icaps-conference.org/papers/finplan/FinPlan23_paper_4.pdf)**. *J.P. Morgan AI Research & Proceedings of the 3rd International Workshop on Financial Planning (FinPlan 2023)*.
+  
 ## 🚀 핵심 결과 (Key Findings)
 
 본 연구의 실험 결과, PPO 기반의 강화학습 에이전트가 고전적인 MVO 및 블랙-리터만 모델, 그리고 벤치마크(S&P 500) 대비 우수한 성과를 보였습니다.
