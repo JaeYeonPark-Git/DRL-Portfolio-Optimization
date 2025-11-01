@@ -118,6 +118,6 @@ python code/train_ppo_return_reward.py
 ## 🎓 저자 (Author)
 
 * **박재연 (Jae Yeon Park)**
-* Portfolio Selection via Deep Reinforcement Learning (2024), Department of Mathematical Sciences, UNIST
+* Portfolio Selection via Deep Reinforcement Learning: Comparative Analysis with Classical Strategies (2024), Department of Mathematical Sciences, UNIST
 
 
