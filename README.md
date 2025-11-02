@@ -17,6 +17,14 @@
 
 **본 연구는 S. Sood 등의 J.P. Morgan AI Research 논문 "Deep reinforcement learning for optimal portfolio allocation"을 메인 레퍼런스로 하여, 논문의 방법론을 재현하고 한국 및 미국 시장 데이터에 적용하여 비교 분석하는 것을 목표로 합니다.**
 
+## 🎓 학위 논문 전문 (Full Master's Thesis)
+
+본 프로젝트의 모든 이론적 배경, 실험 설계, 상세 분석 및 결과는 아래 석사 학위 논문에서 확인하실 수 있습니다.
+
+**[<g-emoji class="g-emoji" alias="page_facing_up" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png">📄</g-emoji> 논문 전문 보기 (View Full Thesis PDF)](./thesis/Park_JaeYeon_Masters_Thesis_2024.pdf)**
+
+---
+
 ## 📚 메인 참고 문헌 (Main Reference)
 
 본 프로젝트는 J.P. Morgan AI Research에서 발표한 다음 논문을 기반으로 합니다.
@@ -42,10 +50,10 @@
 *($100,000 초기 자본 기준)*
 
 **연간 수익률 (Annualized Return) - U.S. Market**
-![U.S. Market Annualized Return](./assets/us_annualized_return.png)
+![U.S. Market Annualized Return](./assets/us_annualized_return.jpg)
 
 **샤프 비율 (Sharpe Ratio) - U.S. Market**
-![U.S. Market Sharpe Ratio](./assets/us_sharpe_ratio.png)
+![U.S. Market Sharpe Ratio](./assets/us_sharpe_ratio.jpg)
 
 ### 🇰🇷 한국 시장 (South Korean Market)
 
@@ -62,10 +70,10 @@
 *(100,000,000 KRW 초기 자본 기준)*
 
 **연간 수익률 (Annualized Return) - South Korean Market**
-![South Korean Market Annualized Return](./assets/kor_annualized_return.png)
+![South Korean Market Annualized Return](./assets/kor_annualized_return.jpg)
 
 **샤프 비율 (Sharpe Ratio) - South Korean Market**
-![South Korean Market Sharpe Ratio](./assets/kor_sharpe_ratio.png)
+![South Korean Market Sharpe Ratio](./assets/kor_sharpe_ratio.jpg)
 
 ---
 
