@@ -21,7 +21,7 @@
 
 본 프로젝트의 모든 이론적 배경, 실험 설계, 상세 분석 및 결과는 아래 석사 학위 논문에서 확인하실 수 있습니다.
 
-**[<g-emoji class="g-emoji" alias="page_facing_up" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png">📄</g-emoji> 논문 전문 보기 (View Full Thesis PDF)](./thesis/Park_JaeYeon_Masters_Thesis_2024.pdf)**
+**[<g-emoji class="g-emoji" alias="page_facing_up" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png">📄</g-emoji> 논문 전문 보기 (View Full Thesis PDF)](./thesis/JaeYeonPark_Masters_Thesis_2024.pdf)**
 
 ---
 
