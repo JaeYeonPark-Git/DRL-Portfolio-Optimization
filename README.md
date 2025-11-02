@@ -145,7 +145,11 @@ python -m venv venv
 
 ### 3. 필요 라이브러리 설치
 ```bash
-pip install -r code/requirements.txt
+# code 폴더로 이동
+cd code
+
+# 의존성 파일 설치
+pip install -r requirements.txt
 ```
 
 ### 4. 스크립트 실행
