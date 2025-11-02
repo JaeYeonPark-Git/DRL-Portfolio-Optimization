@@ -7,7 +7,7 @@
 
 박재연의 석사 학위 논문 "Portfolio Selection via Deep Reinforcement Learning: Comparative Analysis with Classical Strategies"의 공식 코드 저장소입니다.
 
-논문 전문은 `/thesis` 폴더에서 확인하실 수 있습니다.
+논문 전문은 `/thesis` 폴더에서, 코드는 `/code` 폴더에서 확인하실 수 있습니다.
 
 ---
 
@@ -21,11 +21,25 @@
 
 * Sood, S., Papasotiriou, K., Vaiciulis, M., & Balch, T. (2023). **[Deep reinforcement learning for optimal portfolio allocation: A comparative study with mean-variance optimization](https://icaps23.icaps-conference.org/papers/finplan/FinPlan23_paper_4.pdf)**. *J.P. Morgan AI Research & Proceedings of the 3rd International Workshop on Financial Planning (FinPlan 2023)*.
   
+## 📜 개요 (Abstract)
+
+포트폴리오 관리는 위험을 최소화하면서 투자 목표를 달성하기 위해 자산을 전략적으로 배분하는 것을 포함합니다. 본 연구는 포트폴리오 배분 최적화를 위해 전통적인 평균-분산 최적화(MVO), 블랙-리터만 모델, 그리고 심층 강화학습(DRL)을 비교하여 포트폴리오 관리를 탐구합니다. MVO는 공분산 행렬을 추정하기 위해 Ledoit-Wolf 축소 방법을 사용하고 최적화를 위해 효율적 프론티어 기법을 적용합니다. 블랙-리터만 모델은 CAPM에서 파생된 시장 균형 수익률에 투자자의 견해를 통합하여 MVO를 확장하며, 더 균형 잡힌 접근 방식을 제공합니다. 반면, DRL 방법으로는 PPO(Proximal Policy Optimization)가 포트폴리오 가중치를 동적으로 조정하는 데 사용됩니다. 과거 시장 데이터를 사용한 백테스팅 기반의 실증 분석 결과, DRL 접근 방식이 누적 수익률, 연간 수익률, 변동성, 샤프 비율 등 다양한 성과 지표에서 MVO와 블랙-리터만 모델을 모두 크게 능가하는 것으로 나타났습니다.
+
+**본 연구는 S. Sood 등의 J.P. Morgan AI Research 논문 "Deep reinforcement learning for optimal portfolio allocation"을 메인 레퍼런스로 하여, 논문의 방법론을 재현하고 한국 및 미국 시장 데이터에 적용하여 비교 분석하는 것을 목표로 합니다.**
+
+## 📚 메인 참고 문헌 (Main Reference)
+
+본 프로젝트는 J.P. Morgan AI Research에서 발표한 다음 논문을 기반으로 합니다.
+
+* Sood, S., Papasotiriou, K., Vaiciulis, M., & Balch, T. (2023). **[Deep reinforcement learning for optimal portfolio allocation: A comparative study with mean-variance optimization](https://icaps23.icaps-conference.org/papers/finplan/FinPlan23_paper_4.pdf)**. *J.P. Morgan AI Research & Proceedings of the 3rd International Workshop on Financial Planning (FinPlan 2023)*.
+
+---
+
 ## 🚀 핵심 결과 (Key Findings)
 
-본 연구의 실험 결과, PPO 기반의 강화학습 에이전트가 고전적인 MVO 및 블랙-리터만 모델, 그리고 벤치마크(S&P 500) 대비 우수한 성과를 보였습니다.
+### 🇺🇸 미국 시장 (U.S. Market)
 
-**미국 시장 전략별 성과 요약 (2012-2023 평균)**
+**전략별 성과 요약 (2012-2023 평균)**
 
 | Metric | PPO Return-LB60 | Mean-Variance (MVO) | Black-Litterman | S&P 500 |
 | :--- | :---: | :---: | :---: | :---: |
@@ -36,6 +50,34 @@
 | **최종 포트폴리오 가치** | \$326,126.20 | \$194,396.62 | \$498,448.37 | \$373,500.85 |
 
 *($100,000 초기 자본 기준)*
+
+**연간 수익률 (Annualized Return) - U.S. Market**
+![U.S. Market Annualized Return](./assets/us_annualized_return.png)
+
+**샤프 비율 (Sharpe Ratio) - U.S. Market**
+![U.S. Market Sharpe Ratio](./assets/us_sharpe_ratio.png)
+
+### 🇰🇷 한국 시장 (South Korean Market)
+
+**전략별 성과 요약 (2012-2023 평균)**
+
+| Metric | PPO Lookback 60 | Mean-Variance (MVO) | Black-Litterman | KOSPI |
+| :--- | :---: | :---: | :---: | :---: |
+| **연간 수익률 (Ann. Return)** | **0.1434** | 0.0996 | 0.0583 | 0.0463 |
+| **연간 변동성 (Ann. Volatility)** | 0.2151 | 0.2571 | 0.2612 | 0.1483 |
+| **샤프 비율 (Sharpe Ratio)** | **0.5456** | 0.3021 | 0.1536 | 0.3072 |
+| **최대 낙폭 (Max Drawdown)** | 0.1849 | 0.2261 | 0.2418 | 0.1533 |
+| **최종 포트폴리오 가치** | **₩372,696,087** | ₩197,822,628 | ₩122,265,282 | ₩135,827,664 |
+
+*(100,000,000 KRW 초기 자본 기준)*
+
+**연간 수익률 (Annualized Return) - South Korean Market**
+![South Korean Market Annualized Return](./assets/kor_annualized_return.png)
+
+**샤프 비율 (Sharpe Ratio) - South Korean Market**
+![South Korean Market Sharpe Ratio](./assets/kor_sharpe_ratio.png)
+
+---
 
 ## 🛠️ 리포지토리 구조
 
