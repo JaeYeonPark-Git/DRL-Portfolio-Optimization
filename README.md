@@ -1,9 +1,11 @@
 # 포트폴리오 선택을 위한 심층 강화학습 (Portfolio Selection via Deep Reinforcement Learning)
 
+![UNIST Logo](https://upload.wikimedia.org/wikipedia/ko/svg/8/87/%EC%9C%A0%EB%8B%88%EC%8A%A4%ED%8A%B8_%EB%A1%9C%EA%B3%A0.svg)
+
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![Stable Baselines3](https://img.shields.io/badge/Stable_Baselines3-2.0-red.svg)](https://stable-baselines3.readthedocs.io/en/master/)
-[![Gym](https://img.shields.io/badge/Gym-0.26.2-green.svg?logo=gymnasium)](https://gymnasium.farama.org/)
+[![Stable Baselines3](https://img.shields.io/badge/Stable_Baselines3-2.0-E31837)](https://stable-baselines3.readthedocs.io/en/master/)
+[![Gymnasium (Gym)](https://img.shields.io/badge/Gym-0.26.2-54A84F?logo=gymnasium&logoColor=white)](https://gymnasium.farama.org/)
 
 박재연의 석사 학위 논문 "Portfolio Selection via Deep Reinforcement Learning: Comparative Analysis with Classical Strategies"의 공식 코드 저장소입니다.
 
@@ -22,6 +24,14 @@
 본 프로젝트의 모든 이론적 배경, 실험 설계, 상세 분석 및 결과는 아래 석사 학위 논문에서 확인하실 수 있습니다.
 
 **[<g-emoji class="g-emoji" alias="page_facing_up" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png">📄</g-emoji> 논문 전문 보기 (View Full Thesis PDF)](./thesis/JaeYeonPark_Masters_Thesis_2024.pdf)**
+
+## 📖 논문 원문 링크 (Official Thesis Links)
+
+본 연구의 석사 학위 논문은 아래 기관의 데이터베이스에서 원문을 확인하실 수 있습니다.
+
+* **[UNIST Scholar Works (공식 리포지토리)](https://scholarworks.unist.ac.kr/handle/201301/84130?mode=simple)**
+* **[K-Knowledge (국가지식포털)](https://k-knowledge.kr/srch/read.jsp?id=270296097)**
+* **[국회도서관 (National Assembly Library)](https://dl.nanet.go.kr/SearchDetailView.do?cn=KDMT12025000015074&sysid=nadl#none)**
 
 ---
 
