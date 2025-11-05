@@ -1,5 +1,6 @@
 # 포트폴리오 선택을 위한 심층 강화학습 (Portfolio Selection via Deep Reinforcement Learning)
 
+![UNIST Logo](./assets/unist_logo.jpg)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
