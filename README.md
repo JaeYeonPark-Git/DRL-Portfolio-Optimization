@@ -1,9 +1,9 @@
 # 포트폴리오 선택을 위한 심층 강화학습 (Portfolio Selection via Deep Reinforcement Learning)
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange.svg)](https://pytorch.org/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Stable Baselines3](https://img.shields.io/badge/Stable_Baselines3-2.0-red.svg)](https://stable-baselines3.readthedocs.io/en/master/)
-[![Gym](https://img.shields.io/badge/Gym-0.26.2-green.svg)](https://gymnasium.farama.org/)
+[![Gym](https://img.shields.io/badge/Gym-0.26.2-green.svg?logo=gymnasium)](https://gymnasium.farama.org/)
 
 박재연의 석사 학위 논문 "Portfolio Selection via Deep Reinforcement Learning: Comparative Analysis with Classical Strategies"의 공식 코드 저장소입니다.
 
