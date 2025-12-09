@@ -90,7 +90,8 @@
 ```
 /DRL-Portfolio-Optimization
 ├── /code
-│   ├── train_ppo_return_reward.py  # PPO 에이전트 학습 및 백테스팅 스크립트
+│   ├── ppo_us.py # 미국 시장 (S&P 500) 학습 및 백테스팅 스크립트
+│   ├── ppo_kor.py # 한국 시장 (KOSPI) 학습 및 백테스팅 스크립트
 │   └── requirements.txt            # 실행에 필요한 Python 라이브러리
 │
 ├── /thesis
@@ -161,9 +162,19 @@ pip install -r requirements.txt
 ```
 
 ### 4. 스크립트 실행
+원하는 시장(Market)에 따라 해당 스크립트를 실행하십시오.
+
+🇺🇸 미국 시장 (U.S. Market - S&P 500)
+
 ```bash
-# 코드 실행 (미국 시장 데이터로 학습 및 백테스팅 시작)
-python code/train_ppo_return_reward.py
+python code/ppo_us.py
+```
+🇰🇷 한국 시장 (Korean Market - KOSPI)
+
+주의: data/vkospi_data.csv 파일이 존재해야 합니다.
+
+```bash
+python code/ppo_kor.py
 ```
 * 스크립트가 실행되면 `models/` 폴더에 학습된 모델(.zip)이 저장되고, `results/` 폴더에 최종 백테스팅 결과인 `PPO_results_1.csv` 파일이 생성됩니다.
 
